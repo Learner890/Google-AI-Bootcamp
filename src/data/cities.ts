@@ -1,0 +1,123 @@
+import { CityCoord } from '../types/aqi';
+
+export const INDIA_CITIES: CityCoord[] = [
+  // National Capital Region & North India
+  { id: 'in-delhi', name: 'New Delhi', state: 'Delhi NCR', country: 'India', countryCode: 'IN', region: 'North India', isIndia: true, lat: 28.6139, lon: 77.2090, tier: 'metro' },
+  { id: 'in-gurugram', name: 'Gurugram', state: 'Haryana', country: 'India', countryCode: 'IN', region: 'North India', isIndia: true, lat: 28.4595, lon: 77.0266, tier: 'major' },
+  { id: 'in-noida', name: 'Noida', state: 'Uttar Pradesh', country: 'India', countryCode: 'IN', region: 'North India', isIndia: true, lat: 28.5355, lon: 77.3910, tier: 'major' },
+  { id: 'in-ghaziabad', name: 'Ghaziabad', state: 'Uttar Pradesh', country: 'India', countryCode: 'IN', region: 'North India', isIndia: true, lat: 28.6692, lon: 77.4538, tier: 'major' },
+  { id: 'in-faridabad', name: 'Faridabad', state: 'Haryana', country: 'India', countryCode: 'IN', region: 'North India', isIndia: true, lat: 28.4089, lon: 77.3178, tier: 'regional' },
+  { id: 'in-chandigarh', name: 'Chandigarh', state: 'Chandigarh', country: 'India', countryCode: 'IN', region: 'North India', isIndia: true, lat: 30.7333, lon: 76.7794, tier: 'major' },
+  { id: 'in-amritsar', name: 'Amritsar', state: 'Punjab', country: 'India', countryCode: 'IN', region: 'North India', isIndia: true, lat: 31.6340, lon: 74.8723, tier: 'major' },
+  { id: 'in-ludhiana', name: 'Ludhiana', state: 'Punjab', country: 'India', countryCode: 'IN', region: 'North India', isIndia: true, lat: 30.9010, lon: 75.8573, tier: 'regional' },
+  { id: 'in-srinagar', name: 'Srinagar', state: 'Jammu & Kashmir', country: 'India', countryCode: 'IN', region: 'North India', isIndia: true, lat: 34.0837, lon: 74.7973, tier: 'major' },
+  { id: 'in-leh', name: 'Leh', state: 'Ladakh', country: 'India', countryCode: 'IN', region: 'North India', isIndia: true, lat: 34.1526, lon: 77.5771, tier: 'regional' },
+  { id: 'in-shimla', name: 'Shimla', state: 'Himachal Pradesh', country: 'India', countryCode: 'IN', region: 'North India', isIndia: true, lat: 31.1048, lon: 77.1734, tier: 'regional' },
+  { id: 'in-dehradun', name: 'Dehradun', state: 'Uttarakhand', country: 'India', countryCode: 'IN', region: 'North India', isIndia: true, lat: 30.3165, lon: 78.0322, tier: 'regional' },
+  { id: 'in-lucknow', name: 'Lucknow', state: 'Uttar Pradesh', country: 'India', countryCode: 'IN', region: 'North India', isIndia: true, lat: 26.8467, lon: 80.9462, tier: 'metro' },
+  { id: 'in-kanpur', name: 'Kanpur', state: 'Uttar Pradesh', country: 'India', countryCode: 'IN', region: 'North India', isIndia: true, lat: 26.4499, lon: 80.3319, tier: 'major' },
+  { id: 'in-varanasi', name: 'Varanasi', state: 'Uttar Pradesh', country: 'India', countryCode: 'IN', region: 'North India', isIndia: true, lat: 25.3176, lon: 82.9739, tier: 'major' },
+  { id: 'in-agra', name: 'Agra', state: 'Uttar Pradesh', country: 'India', countryCode: 'IN', region: 'North India', isIndia: true, lat: 27.1767, lon: 78.0081, tier: 'major' },
+  { id: 'in-prayagraj', name: 'Prayagraj', state: 'Uttar Pradesh', country: 'India', countryCode: 'IN', region: 'North India', isIndia: true, lat: 25.4358, lon: 81.8463, tier: 'regional' },
+  { id: 'in-meerut', name: 'Meerut', state: 'Uttar Pradesh', country: 'India', countryCode: 'IN', region: 'North India', isIndia: true, lat: 28.9845, lon: 77.7064, tier: 'regional' },
+  { id: 'in-jaipur', name: 'Jaipur', state: 'Rajasthan', country: 'India', countryCode: 'IN', region: 'North India', isIndia: true, lat: 26.9124, lon: 75.7873, tier: 'metro' },
+  { id: 'in-jodhpur', name: 'Jodhpur', state: 'Rajasthan', country: 'India', countryCode: 'IN', region: 'North India', isIndia: true, lat: 26.2389, lon: 73.0243, tier: 'regional' },
+  { id: 'in-udaipur', name: 'Udaipur', state: 'Rajasthan', country: 'India', countryCode: 'IN', region: 'North India', isIndia: true, lat: 24.5854, lon: 73.7125, tier: 'regional' },
+  { id: 'in-kota', name: 'Kota', state: 'Rajasthan', country: 'India', countryCode: 'IN', region: 'North India', isIndia: true, lat: 25.2138, lon: 75.8648, tier: 'regional' },
+
+  // West & Central India
+  { id: 'in-mumbai', name: 'Mumbai', state: 'Maharashtra', country: 'India', countryCode: 'IN', region: 'West India', isIndia: true, lat: 19.0760, lon: 72.8777, tier: 'metro' },
+  { id: 'in-pune', name: 'Pune', state: 'Maharashtra', country: 'India', countryCode: 'IN', region: 'West India', isIndia: true, lat: 18.5204, lon: 73.8567, tier: 'metro' },
+  { id: 'in-nagpur', name: 'Nagpur', state: 'Maharashtra', country: 'India', countryCode: 'IN', region: 'Central India', isIndia: true, lat: 21.1458, lon: 79.0882, tier: 'major' },
+  { id: 'in-nashik', name: 'Nashik', state: 'Maharashtra', country: 'India', countryCode: 'IN', region: 'West India', isIndia: true, lat: 19.9975, lon: 73.7898, tier: 'regional' },
+  { id: 'in-ahmedabad', name: 'Ahmedabad', state: 'Gujarat', country: 'India', countryCode: 'IN', region: 'West India', isIndia: true, lat: 23.0225, lon: 72.5714, tier: 'metro' },
+  { id: 'in-surat', name: 'Surat', state: 'Gujarat', country: 'India', countryCode: 'IN', region: 'West India', isIndia: true, lat: 21.1702, lon: 72.8311, tier: 'major' },
+  { id: 'in-vadodara', name: 'Vadodara', state: 'Gujarat', country: 'India', countryCode: 'IN', region: 'West India', isIndia: true, lat: 22.3072, lon: 73.1812, tier: 'regional' },
+  { id: 'in-rajkot', name: 'Rajkot', state: 'Gujarat', country: 'India', countryCode: 'IN', region: 'West India', isIndia: true, lat: 22.3039, lon: 70.8022, tier: 'regional' },
+  { id: 'in-panaji', name: 'Panaji', state: 'Goa', country: 'India', countryCode: 'IN', region: 'West India', isIndia: true, lat: 15.4909, lon: 73.8278, tier: 'regional' },
+  { id: 'in-bhopal', name: 'Bhopal', state: 'Madhya Pradesh', country: 'India', countryCode: 'IN', region: 'Central India', isIndia: true, lat: 23.2599, lon: 77.4126, tier: 'major' },
+  { id: 'in-indore', name: 'Indore', state: 'Madhya Pradesh', country: 'India', countryCode: 'IN', region: 'Central India', isIndia: true, lat: 22.7196, lon: 75.8577, tier: 'major' },
+  { id: 'in-gwalior', name: 'Gwalior', state: 'Madhya Pradesh', country: 'India', countryCode: 'IN', region: 'Central India', isIndia: true, lat: 26.2183, lon: 78.1828, tier: 'regional' },
+  { id: 'in-raipur', name: 'Raipur', state: 'Chhattisgarh', country: 'India', countryCode: 'IN', region: 'Central India', isIndia: true, lat: 21.2514, lon: 81.6296, tier: 'major' },
+
+  // East & Northeast India
+  { id: 'in-kolkata', name: 'Kolkata', state: 'West Bengal', country: 'India', countryCode: 'IN', region: 'East India', isIndia: true, lat: 22.5726, lon: 88.3639, tier: 'metro' },
+  { id: 'in-siliguri', name: 'Siliguri', state: 'West Bengal', country: 'India', countryCode: 'IN', region: 'East India', isIndia: true, lat: 26.7271, lon: 88.3953, tier: 'regional' },
+  { id: 'in-patna', name: 'Patna', state: 'Bihar', country: 'India', countryCode: 'IN', region: 'East India', isIndia: true, lat: 25.5941, lon: 85.1376, tier: 'major' },
+  { id: 'in-ranchi', name: 'Ranchi', state: 'Jharkhand', country: 'India', countryCode: 'IN', region: 'East India', isIndia: true, lat: 23.3441, lon: 85.3096, tier: 'major' },
+  { id: 'in-bhubaneswar', name: 'Bhubaneswar', state: 'Odisha', country: 'India', countryCode: 'IN', region: 'East India', isIndia: true, lat: 20.2961, lon: 85.8245, tier: 'major' },
+  { id: 'in-guwahati', name: 'Guwahati', state: 'Assam', country: 'India', countryCode: 'IN', region: 'Northeast India', isIndia: true, lat: 26.1445, lon: 91.7362, tier: 'major' },
+  { id: 'in-shillong', name: 'Shillong', state: 'Meghalaya', country: 'India', countryCode: 'IN', region: 'Northeast India', isIndia: true, lat: 25.5788, lon: 91.8933, tier: 'regional' },
+  { id: 'in-imphal', name: 'Imphal', state: 'Manipur', country: 'India', countryCode: 'IN', region: 'Northeast India', isIndia: true, lat: 24.8170, lon: 93.9368, tier: 'regional' },
+  { id: 'in-gangtok', name: 'Gangtok', state: 'Sikkim', country: 'India', countryCode: 'IN', region: 'Northeast India', isIndia: true, lat: 27.3314, lon: 88.6138, tier: 'regional' },
+  { id: 'in-agartala', name: 'Agartala', state: 'Tripura', country: 'India', countryCode: 'IN', region: 'Northeast India', isIndia: true, lat: 23.8315, lon: 91.2868, tier: 'regional' },
+
+  // South India & Islands
+  { id: 'in-bengaluru', name: 'Bengaluru', state: 'Karnataka', country: 'India', countryCode: 'IN', region: 'South India', isIndia: true, lat: 12.9716, lon: 77.5946, tier: 'metro' },
+  { id: 'in-mysuru', name: 'Mysuru', state: 'Karnataka', country: 'India', countryCode: 'IN', region: 'South India', isIndia: true, lat: 12.2958, lon: 76.6394, tier: 'regional' },
+  { id: 'in-mangaluru', name: 'Mangaluru', state: 'Karnataka', country: 'India', countryCode: 'IN', region: 'South India', isIndia: true, lat: 12.9141, lon: 74.8560, tier: 'regional' },
+  { id: 'in-hyderabad', name: 'Hyderabad', state: 'Telangana', country: 'India', countryCode: 'IN', region: 'South India', isIndia: true, lat: 17.3850, lon: 78.4867, tier: 'metro' },
+  { id: 'in-visakhapatnam', name: 'Visakhapatnam', state: 'Andhra Pradesh', country: 'India', countryCode: 'IN', region: 'South India', isIndia: true, lat: 17.6868, lon: 83.2185, tier: 'major' },
+  { id: 'in-vijayawada', name: 'Vijayawada', state: 'Andhra Pradesh', country: 'India', countryCode: 'IN', region: 'South India', isIndia: true, lat: 16.5062, lon: 80.6480, tier: 'regional' },
+  { id: 'in-chennai', name: 'Chennai', state: 'Tamil Nadu', country: 'India', countryCode: 'IN', region: 'South India', isIndia: true, lat: 13.0827, lon: 80.2707, tier: 'metro' },
+  { id: 'in-coimbatore', name: 'Coimbatore', state: 'Tamil Nadu', country: 'India', countryCode: 'IN', region: 'South India', isIndia: true, lat: 11.0168, lon: 76.9558, tier: 'major' },
+  { id: 'in-madurai', name: 'Madurai', state: 'Tamil Nadu', country: 'India', countryCode: 'IN', region: 'South India', isIndia: true, lat: 9.9252, lon: 78.1198, tier: 'regional' },
+  { id: 'in-kochi', name: 'Kochi', state: 'Kerala', country: 'India', countryCode: 'IN', region: 'South India', isIndia: true, lat: 9.9312, lon: 76.2673, tier: 'major' },
+  { id: 'in-thiruvananthapuram', name: 'Thiruvananthapuram', state: 'Kerala', country: 'India', countryCode: 'IN', region: 'South India', isIndia: true, lat: 8.5241, lon: 76.9366, tier: 'major' },
+  { id: 'in-puducherry', name: 'Puducherry', state: 'Puducherry', country: 'India', countryCode: 'IN', region: 'South India', isIndia: true, lat: 11.9416, lon: 79.8083, tier: 'regional' },
+  { id: 'in-port-blair', name: 'Sri Vijaya Puram', state: 'Andaman & Nicobar', country: 'India', countryCode: 'IN', region: 'Islands', isIndia: true, lat: 11.6234, lon: 92.7265, tier: 'regional' },
+];
+
+export const WORLD_CITIES: CityCoord[] = [
+  // Asia & Middle East
+  { id: 'wd-tokyo', name: 'Tokyo', state: 'Kanto', country: 'Japan', countryCode: 'JP', region: 'East Asia', isIndia: false, lat: 35.6762, lon: 139.6503, tier: 'metro' },
+  { id: 'wd-seoul', name: 'Seoul', state: 'Seoul', country: 'South Korea', countryCode: 'KR', region: 'East Asia', isIndia: false, lat: 37.5665, lon: 126.9780, tier: 'metro' },
+  { id: 'wd-beijing', name: 'Beijing', state: 'Beijing', country: 'China', countryCode: 'CN', region: 'East Asia', isIndia: false, lat: 39.9042, lon: 116.4074, tier: 'metro' },
+  { id: 'wd-shanghai', name: 'Shanghai', state: 'Shanghai', country: 'China', countryCode: 'CN', region: 'East Asia', isIndia: false, lat: 31.2304, lon: 121.4737, tier: 'metro' },
+  { id: 'wd-hongkong', name: 'Hong Kong', state: 'SAR', country: 'China', countryCode: 'HK', region: 'East Asia', isIndia: false, lat: 22.3193, lon: 114.1694, tier: 'major' },
+  { id: 'wd-taipei', name: 'Taipei', state: 'Taipei', country: 'Taiwan', countryCode: 'TW', region: 'East Asia', isIndia: false, lat: 25.0330, lon: 121.5654, tier: 'major' },
+  { id: 'wd-bangkok', name: 'Bangkok', state: 'Bangkok', country: 'Thailand', countryCode: 'TH', region: 'Southeast Asia', isIndia: false, lat: 13.7563, lon: 100.5018, tier: 'metro' },
+  { id: 'wd-singapore', name: 'Singapore', state: 'Singapore', country: 'Singapore', countryCode: 'SG', region: 'Southeast Asia', isIndia: false, lat: 1.3521, lon: 103.8198, tier: 'metro' },
+  { id: 'wd-jakarta', name: 'Jakarta', state: 'Java', country: 'Indonesia', countryCode: 'ID', region: 'Southeast Asia', isIndia: false, lat: -6.2088, lon: 106.8456, tier: 'metro' },
+  { id: 'wd-manila', name: 'Manila', state: 'Metro Manila', country: 'Philippines', countryCode: 'PH', region: 'Southeast Asia', isIndia: false, lat: 14.5995, lon: 120.9842, tier: 'major' },
+  { id: 'wd-hanoi', name: 'Hanoi', state: 'Red River Delta', country: 'Vietnam', countryCode: 'VN', region: 'Southeast Asia', isIndia: false, lat: 21.0285, lon: 105.8542, tier: 'major' },
+  { id: 'wd-dhaka', name: 'Dhaka', state: 'Dhaka', country: 'Bangladesh', countryCode: 'BD', region: 'South Asia', isIndia: false, lat: 23.8103, lon: 90.4125, tier: 'metro' },
+  { id: 'wd-kathmandu', name: 'Kathmandu', state: 'Bagmati', country: 'Nepal', countryCode: 'NP', region: 'South Asia', isIndia: false, lat: 27.7172, lon: 85.3240, tier: 'major' },
+  { id: 'wd-colombo', name: 'Colombo', state: 'Western', country: 'Sri Lanka', countryCode: 'LK', region: 'South Asia', isIndia: false, lat: 6.9271, lon: 79.8612, tier: 'major' },
+  { id: 'wd-lahore', name: 'Lahore', state: 'Punjab', country: 'Pakistan', countryCode: 'PK', region: 'South Asia', isIndia: false, lat: 31.5204, lon: 74.3587, tier: 'metro' },
+  { id: 'wd-karachi', name: 'Karachi', state: 'Sindh', country: 'Pakistan', countryCode: 'PK', region: 'South Asia', isIndia: false, lat: 24.8607, lon: 67.0011, tier: 'metro' },
+  { id: 'wd-dubai', name: 'Dubai', state: 'Dubai', country: 'UAE', countryCode: 'AE', region: 'Middle East', isIndia: false, lat: 25.2048, lon: 55.2708, tier: 'metro' },
+  { id: 'wd-riyadh', name: 'Riyadh', state: 'Riyadh', country: 'Saudi Arabia', countryCode: 'SA', region: 'Middle East', isIndia: false, lat: 24.7136, lon: 46.6753, tier: 'major' },
+  { id: 'wd-istanbul', name: 'Istanbul', state: 'Marmara', country: 'Turkey', countryCode: 'TR', region: 'Middle East', isIndia: false, lat: 41.0082, lon: 28.9784, tier: 'metro' },
+
+  // Europe
+  { id: 'wd-london', name: 'London', state: 'England', country: 'United Kingdom', countryCode: 'GB', region: 'Europe', isIndia: false, lat: 51.5074, lon: -0.1278, tier: 'metro' },
+  { id: 'wd-paris', name: 'Paris', state: 'Île-de-France', country: 'France', countryCode: 'FR', region: 'Europe', isIndia: false, lat: 48.8566, lon: 2.3522, tier: 'metro' },
+  { id: 'wd-berlin', name: 'Berlin', state: 'Berlin', country: 'Germany', countryCode: 'DE', region: 'Europe', isIndia: false, lat: 52.5200, lon: 13.4050, tier: 'major' },
+  { id: 'wd-madrid', name: 'Madrid', state: 'Madrid', country: 'Spain', countryCode: 'ES', region: 'Europe', isIndia: false, lat: 40.4168, lon: -3.7038, tier: 'major' },
+  { id: 'wd-rome', name: 'Rome', state: 'Lazio', country: 'Italy', countryCode: 'IT', region: 'Europe', isIndia: false, lat: 41.9028, lon: 12.4964, tier: 'major' },
+  { id: 'wd-zurich', name: 'Zurich', state: 'Zurich', country: 'Switzerland', countryCode: 'CH', region: 'Europe', isIndia: false, lat: 47.3769, lon: 8.5417, tier: 'major' },
+  { id: 'wd-stockholm', name: 'Stockholm', state: 'Stockholm', country: 'Sweden', countryCode: 'SE', region: 'Europe', isIndia: false, lat: 59.3293, lon: 18.0686, tier: 'major' },
+  { id: 'wd-moscow', name: 'Moscow', state: 'Moscow', country: 'Russia', countryCode: 'RU', region: 'Europe', isIndia: false, lat: 55.7558, lon: 37.6173, tier: 'metro' },
+
+  // Africa
+  { id: 'wd-cairo', name: 'Cairo', state: 'Cairo', country: 'Egypt', countryCode: 'EG', region: 'Africa', isIndia: false, lat: 30.0444, lon: 31.2357, tier: 'metro' },
+  { id: 'wd-nairobi', name: 'Nairobi', state: 'Nairobi', country: 'Kenya', countryCode: 'KE', region: 'Africa', isIndia: false, lat: -1.2921, lon: 36.8219, tier: 'major' },
+  { id: 'wd-lagos', name: 'Lagos', state: 'Lagos', country: 'Nigeria', countryCode: 'NG', region: 'Africa', isIndia: false, lat: 6.5244, lon: 3.3792, tier: 'metro' },
+  { id: 'wd-johannesburg', name: 'Johannesburg', state: 'Gauteng', country: 'South Africa', countryCode: 'ZA', region: 'Africa', isIndia: false, lat: -26.2041, lon: 28.0473, tier: 'major' },
+
+  // Americas & Oceania
+  { id: 'wd-newyork', name: 'New York', state: 'New York', country: 'United States', countryCode: 'US', region: 'North America', isIndia: false, lat: 40.7128, lon: -74.0060, tier: 'metro' },
+  { id: 'wd-losangeles', name: 'Los Angeles', state: 'California', country: 'United States', countryCode: 'US', region: 'North America', isIndia: false, lat: 34.0522, lon: -118.2437, tier: 'metro' },
+  { id: 'wd-chicago', name: 'Chicago', state: 'Illinois', country: 'United States', countryCode: 'US', region: 'North America', isIndia: false, lat: 41.8781, lon: -87.6298, tier: 'major' },
+  { id: 'wd-toronto', name: 'Toronto', state: 'Ontario', country: 'Canada', countryCode: 'CA', region: 'North America', isIndia: false, lat: 43.6532, lon: -79.3832, tier: 'metro' },
+  { id: 'wd-mexicocity', name: 'Mexico City', state: 'CDMX', country: 'Mexico', countryCode: 'MX', region: 'North America', isIndia: false, lat: 19.4326, lon: -99.1332, tier: 'metro' },
+  { id: 'wd-saopaulo', name: 'São Paulo', state: 'São Paulo', country: 'Brazil', countryCode: 'BR', region: 'South America', isIndia: false, lat: -23.5505, lon: -46.6333, tier: 'metro' },
+  { id: 'wd-buenosaires', name: 'Buenos Aires', state: 'Buenos Aires', country: 'Argentina', countryCode: 'AR', region: 'South America', isIndia: false, lat: -34.6037, lon: -58.3816, tier: 'metro' },
+  { id: 'wd-bogota', name: 'Bogotá', state: 'Cundinamarca', country: 'Colombia', countryCode: 'CO', region: 'South America', isIndia: false, lat: 4.7110, lon: -74.0721, tier: 'major' },
+  { id: 'wd-sydney', name: 'Sydney', state: 'New South Wales', country: 'Australia', countryCode: 'AU', region: 'Oceania', isIndia: false, lat: -33.8688, lon: 151.2093, tier: 'metro' },
+  { id: 'wd-melbourne', name: 'Melbourne', state: 'Victoria', country: 'Australia', countryCode: 'AU', region: 'Oceania', isIndia: false, lat: -37.8136, lon: 144.9631, tier: 'major' },
+  { id: 'wd-auckland', name: 'Auckland', state: 'Auckland', country: 'New Zealand', countryCode: 'NZ', region: 'Oceania', isIndia: false, lat: -36.8485, lon: 174.7633, tier: 'major' },
+];
+
+export const ALL_PRESET_CITIES: CityCoord[] = [...INDIA_CITIES, ...WORLD_CITIES];
